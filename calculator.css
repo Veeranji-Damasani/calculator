@@ -1,0 +1,84 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(35deg,yellow,orange);
+    background-size: 100% 100%;
+}
+#container
+{
+    width: 30vw;
+    height: 40vh;
+    border: groove black;
+    margin-top: 30vh;
+    margin-left: 30%;
+    background-color: lightslategray;
+    border-radius: 5%;
+}
+#in
+{
+    width: 96%;
+    height: 7vh;
+    background-color: lightskyblue;
+    border: outset black;
+    outline: none;
+    font-size: larger;
+    color: black;
+    border-radius: 10%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.a
+{
+    width: 21%;
+    height: 4vh;
+    margin-left: 2%;
+    background-color: black;
+    color: white;
+    border: outset;
+}
+#cl
+{
+    width: 21%;
+    height: 4vh;
+    margin-left: 2%;
+    background-color: black;
+    color: white;
+    border: outset;
+    margin-top: 1.5vh;
+    
+}
+#eq
+{
+    width: 21%;
+    height: 4vh;
+    margin-left: 3%;
+    background-color: black;
+    color: white;
+    border: outset;
+}
+#do
+{
+    width: 21%;
+    height: 4vh;
+    margin-left:2%;
+    background-color: black;
+    color: white;
+    border: outset;
+}
+.a:hover{
+    transform: scale(1.2);
+}
+#eq:hover{
+    transform: scale(1.2);
+}
+#do:hover{
+    transform: scale(1.2);
+}
+#cl:hover{
+    transform: scale(1.2);
+}

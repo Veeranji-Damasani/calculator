@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        var k=new Audio(`../../asserts/audio/select-sound-121244.mp3`);
+        function fun()
+        {
+            k.play();
+        }
+        
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <div id="container">
+        <form name="cform">
+            <input type="text" name="display" readonly id="in">
+            <br></br>
+            <input type="button" value="1" onclick="cform.display.value+='1';fun()" class="a">
+            <input type="button" value="2" onclick="cform.display.value+='2';fun()" class="a">
+            <input type="button" value="3" onclick="cform.display.value+='3';fun()" class="a">
+            <input type="button" value="+" onclick="cform.display.value+='+';fun()" class="a">
+            <br><br>
+            <input type="button" value="4" onclick="cform.display.value+='4';fun()" class="a">
+            <input type="button" value="5" onclick="cform.display.value+='5';fun()" class="a">
+            <input type="button" value="6" onclick="cform.display.value+='6';fun()" class="a">
+            <input type="button" value="-" onclick="cform.display.value+='-';fun()" class="a">
+            <br><br>
+            <input type="button" value="7" onclick="cform.display.value+='7';fun()" class="a">
+            <input type="button" value="8" onclick="cform.display.value+='8';fun()" class="a">
+            <input type="button" value="9" onclick="cform.display.value+='9';fun()" class="a">
+            <input type="button" value="*" onclick="cform.display.value+='*';fun()" class="a">
+            <br><br>
+            <input type="button" value="%" onclick="cform.display.value+='%';fun()"class="a">
+            <input type="button" value="0" onclick="cform.display.value+='0';fun()"class="a">
+            <input type="button" value="/" onclick="cform.display.value+='/';fun()"class="a">
+            <input type="button" value="**" onclick="cform.display.value+='**';fun()" class="a">
+            <br>
+            <input type="button" value="clear" onclick="cform.display.value='';fun()" id="cl">
+            <input type="button" value="=" onclick="cform.display.value=eval(cform.display.value);fun()" id="eq">
+            <input type="button" value="." onclick="cform.display.value+='.';fun()" id="do">
+        </form>
+    </div>
+</body>
+</html>
